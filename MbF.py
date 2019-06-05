@@ -76,7 +76,7 @@ def tampilhasil(akun,sandi,data):
 		for i in cekpoint:
 			cetak('!k### !p%s !m=> !b[!k%s!b]'%(i,sandi))
 	cetak('!m[*] Gagal    !c'+str(salah))
-	i = inputD('[?] Tidak Puas dengan Hasil,Mau coba lagi (y/t)',['Y','T'])
+	i = inputD('[?] Belum Puas?, Mo ulang? (y/t)',['Y','T'])
 	if i.upper() == 'Y':
 		return crack(data)
 	else:
@@ -243,10 +243,10 @@ def login():
 		nama = br.find_link(url_regex='logout.php').text
 		nama = re.findall(r'\((.*a?)\)',nama)[0]
 		cetak('!h[*] Selamat datang !k%s'%nama)
-		cetak('!h[*] Semoga ini adalah hari keberuntungan mu...')
+		cetak('!h[*] Semoga dapat akun!...')
 		log = 1
 	elif 'checkpoint' in url:
-		cetak('!m[!] Akun kena checkpoint\n!k[!]Coba Login dengan opera mini')
+		cetak('!m[!] Akun kena checkpoint\n!k[!]Coba Login dengan Uc Browser')
 		keluar()
 	else:
 		cetak('!m[!] Login Gagal')

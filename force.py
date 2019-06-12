@@ -48,18 +48,17 @@ def cover():
     
     
      """
-    runntek(GL+"          selamat datang di tools kami ....
+    runntek(GL+"          selamat datang di tools saya ....
     time.sleep(1)
     PRINT " "
-    PRINT GG+"   ===========================================
+    PRINT GG+"  ============================================
     PRINT BB+"  ||    M U L T I B R U T E R F O R C E     ||
     PRINT GG+"  ||----------------------------------------||
-    PRINT YY+"  ||  editor  :  XbalMeonk                    ||
+    PRINT YY+"  ||  editor  :  Dave Kgw                   ||
     PRINT CC+"  ||^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^||
-    PRINT GL+"  ||  FACEBOOK:  Cengir Eea                  ||
-    PRINT RR+"  ||  Youtube : Xbal Meonk                   ||
-    PRINT BB"  ||_________________________________________||
-    PRINT GG+"   =============================================
+    PRINT GL+"  ||  FACEBOOK:  Dave Koagow                ||
+    PRINT BB+"  ||________________________________________||
+    PRINT GG+"  ============================================
 	    
 cover()
 br = 0

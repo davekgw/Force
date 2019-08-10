@@ -1,9 +1,9 @@
 import platform,os,sys
 def cetak(x,e=0):
 	w = 'mhkbpcP'
-	for i in w:
-		j = w.index(i)
-		x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
+	        for i in w:
+	        j = w.index(i)
+	x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
 	x += '\033[0m'
 	x = x.replace('!0','\033[0m')
 	if e != 0:
@@ -47,7 +47,7 @@ def cover():
     
     
     
-     """
+          """
     runntek(GL+"          selamat datang di tools saya ....
     time.sleep(1)
     PRINT " "

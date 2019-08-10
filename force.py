@@ -7,9 +7,9 @@ def cetak(x,e=0):
 	x += '\033[0m'
 	x = x.replace('!0','\033[0m')
 	if e != 0:
-	sys.stdout.write(x)
+	       sys.stdout.write(x)
 	else:
-	sys.stdout.write(x+'\n')
+	       sys.stdout.write(x+'\n')
 if platform.python_version().split('.')[0] != '2':
 	cetak('!m[!] Kamu menggunakan python versi %s silahkan menggunakan versi 2.x.x'%v().split(' ')[0])
 	sys.exit()

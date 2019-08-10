@@ -1,29 +1,29 @@
 import platform,os,sys
 def cetak(x,e=0):
 	w = 'mhkbpcP'
-	        for i in w:
-	        j = w.index(i)
+	for i in w:
+	j = w.index(i)
 	x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
 	x += '\033[0m'
 	x = x.replace('!0','\033[0m')
 	if e != 0:
-		sys.stdout.write(x)
+	sys.stdout.write(x)
 	else:
-		sys.stdout.write(x+'\n')
+	sys.stdout.write(x+'\n')
 if platform.python_version().split('.')[0] != '2':
 	cetak('!m[!] Kamu menggunakan python versi %s silahkan menggunakan versi 2.x.x'%v().split(' ')[0])
 	sys.exit()
 import cookielib,re,urllib2,urllib,threading
 try:
-  import mechanize
+import mechanize
 except ImportError:
 	cetak('!m[!] SepertiNya Module !cmechanize!m belum di install...\n!h[!] pip2 install mechanize')
 	sys.exit()
 def runntek(s):
         for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(10. / 100)
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(10. / 100)
 
 if sys.platform == "linux" or sys.platform == "linux2":
      GL = "\033[96;1m" # Blue aqua
